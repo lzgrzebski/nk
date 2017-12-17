@@ -1,25 +1,48 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { State } from '../../store/reducers';
-import { fetchData } from './Home.actions';
+import { fetchData, editText, saveText } from './Home.actions';
+import { ContentContainer } from '../../components/ContentContainer';
 
 interface HomeProps {
-    elements: string[];
+    headline: string;
+    isEditing: boolean;
+    editedField: string;
     // tslint:disable-next-line:no-any
     fetchData: () => any;
+    // tslint:disable-next-line:no-any
+    editText: (id: any) => any;
+    // tslint:disable-next-line:no-any
+    saveText: (id: any, changedText: string) => any;
 }
   
 class HomeContainer extends React.Component<HomeProps> {
 
     componentDidMount() {
         this.props.fetchData();
-      }
+    }
+
+    // tslint:disable-next-line:no-any
+    handleBlur = (e: any) => {
+        this.props.saveText('headline', e.target.value);
+    }
 
     render() {
         return (
-            <div>
-        {this.props.elements && this.props.elements.map(element => <div key={element}>{element}</div>)}
-      </div>
+            <ContentContainer>
+                {!this.props.isEditing ? (
+                    <div onClick={() => this.props.editText('headline')}>                
+                        {this.props.headline}
+                    </div>
+                ) :
+                (
+                    <textarea
+                        autoFocus
+                        defaultValue={this.props.headline}
+                        onBlur={this.handleBlur}
+                    />
+                ) }
+            </ContentContainer>
         );
     }
   
@@ -27,9 +50,11 @@ class HomeContainer extends React.Component<HomeProps> {
 
 function mapStateToProps(state: State) {
     return {
-        elements: state.home.elements
+        headline: state.home.headline,
+        isEditing: state.home.isEditing,
+        editedField: state.home.editedField
     };
 }
 
-const Home = connect(mapStateToProps, { fetchData })(HomeContainer);
+const Home = connect(mapStateToProps, { fetchData, editText, saveText })(HomeContainer);
 export { Home };

@@ -1,0 +1,1 @@
+export const contentWrapper = '1250px';
