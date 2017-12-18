@@ -1,19 +1,21 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { State } from '../../store/reducers';
-import { fetchData, editText, saveText } from './Home.actions';
+import { State, PageType } from '../../store/reducers';
+import { fetchData } from './Home.actions';
+import { editText, saveText } from '../App/App.actions';
 import { ContentContainer } from '../../components/ContentContainer';
+import { Text } from './Home.reducer';
 
 interface HomeProps {
-    headline: string;
+    headline: Text;
     isEditing: boolean;
     editedField: string;
     // tslint:disable-next-line:no-any
     fetchData: () => any;
     // tslint:disable-next-line:no-any
-    editText: (id: any) => any;
+    editText: (editedPage: any, editedField: any) => any;
     // tslint:disable-next-line:no-any
-    saveText: (id: any, changedText: string) => any;
+    saveText: (editedPage: any, editedField: any, changedText: string) => any;
 }
   
 class HomeContainer extends React.Component<HomeProps> {
@@ -24,21 +26,21 @@ class HomeContainer extends React.Component<HomeProps> {
 
     // tslint:disable-next-line:no-any
     handleBlur = (e: any) => {
-        this.props.saveText('headline', e.target.value);
+        this.props.saveText(PageType.home, this.props.headline.key, e.target.value);
     }
 
     render() {
         return (
             <ContentContainer>
                 {!this.props.isEditing ? (
-                    <div onClick={() => this.props.editText('headline')}>                
-                        {this.props.headline}
+                    <div onClick={() => this.props.editText(PageType.home, this.props.headline.key)}>                
+                        {this.props.headline.value}
                     </div>
                 ) :
                 (
                     <textarea
                         autoFocus
-                        defaultValue={this.props.headline}
+                        defaultValue={this.props.headline.value}
                         onBlur={this.handleBlur}
                     />
                 ) }
@@ -51,10 +53,9 @@ class HomeContainer extends React.Component<HomeProps> {
 function mapStateToProps(state: State) {
     return {
         headline: state.home.headline,
-        isEditing: state.home.isEditing,
-        editedField: state.home.editedField
+        isEditing: state.app.isEditing,
+        editedField: state.app.editedField
     };
 }
 
-const Home = connect(mapStateToProps, { fetchData, editText, saveText })(HomeContainer);
-export { Home };
+export const Home = connect(mapStateToProps, { fetchData, editText, saveText })(HomeContainer);

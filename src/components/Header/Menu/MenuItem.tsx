@@ -16,6 +16,7 @@ export default withProps<MenuItemProps>()(styled.span)`
     margin-left:15px;
     margin-right: 15px;
     
+    .active,
     &:hover {
         border-bottom: 4px solid #e7f7f3;
         box-shadow: inset 0 -2px 0 #e7f7f3;

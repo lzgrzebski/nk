@@ -1,12 +1,12 @@
 import * as React from 'react';
-import Text from './Text';
+import TextField from './TextField';
 
 interface LogoProps {
 
 }
 
 export const Logo: React.SFC<LogoProps> = (props) => (
-    <Text>
+    <TextField>
         Nasze Krzywczyce
-    </Text>
+    </TextField>
 );

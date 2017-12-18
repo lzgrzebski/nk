@@ -8,7 +8,7 @@ import 'rxjs';
 import './globalStyles';
 import registerServiceWorker from './registerServiceWorker';
 import configureStore from './store';
-import App from './App'; 
+import { App } from './containers/App'; 
 
 const history = createHistory();
 const store = configureStore({}, history);
