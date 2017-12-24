@@ -14,10 +14,9 @@ export interface State {
   home: homeReducer.State;
 }
 
-  // tslint:disable-next-line:no-any
-function globalReducer(state: State, action: any) {
+function globalReducer(state: State, action: fromApp.Actions) {
   switch (action.type) {
-    case fromApp.SAVE_TEXT:
+    case fromApp.ActionNames.SAVE_TEXT:
         const { editedPage, editedField, text } = action;
         return {
           ...state,
@@ -31,7 +30,7 @@ function globalReducer(state: State, action: any) {
             ...state[editedPage],
             [editedField]: {
               ...state[editedPage][editedField],
-              key: editedField,
+              id: editedField,
               value:  text 
             }
           }};

@@ -43,4 +43,8 @@ export const globalStyles = injectGlobal`
         min-width: 0;
         border: 0;
     }
+
+    iframe {
+        border: 0;
+    }
 `;

@@ -1,2 +1,2 @@
 export { Logo } from './Logo';
-export { default as TextField } from './TextField';
+export { default as LogoText } from './LogoText';

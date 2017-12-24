@@ -1,7 +1,7 @@
 import * as fromHome from './Home.actions';
 
 export interface Text {
-    key: string;
+    id: string;
     value: string;
 }
 
@@ -13,25 +13,24 @@ export interface State {
 
 const initialState: State = {
     headline: {
-        key: 'headline',
+        id: 'headline',
         value: ''
     },
     headlineDescription: {
-        key: 'headlineDescription',
+        id: 'headlineDescription',
         value: ''
     },
     paragraph1: {
-        key: 'paragraph1',
+        id: 'paragraph1',
         value: ''
     },
 };
 
-// tslint:disable-next-line:no-any
-export function reducer(state: State = initialState, action: any): State {
+export function reducer(state: State = initialState, action: fromHome.Actions): State {
     switch (action.type) {
-        case fromHome.FETCH_DATA:
+        case fromHome.ActionNames.FETCH_DATA:
             return state;
-        case fromHome.FETCH_DATA_FULFILLED:
+        case fromHome.ActionNames.FETCH_DATA_FULFILLED:
             return {...state, ...action.payload};
         default:
             return state;

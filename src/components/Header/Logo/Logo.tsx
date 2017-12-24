@@ -1,12 +1,15 @@
 import * as React from 'react';
-import TextField from './TextField';
+import LogoText from './LogoText';
+import { Link } from 'react-router-dom';
 
 interface LogoProps {
 
 }
 
 export const Logo: React.SFC<LogoProps> = (props) => (
-    <TextField>
-        Nasze Krzywczyce
-    </TextField>
+    <LogoText>
+        <Link to="/">
+            Nasze Krzywczyce
+        </Link>
+    </LogoText>
 );

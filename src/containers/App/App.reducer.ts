@@ -14,10 +14,9 @@ const initialState: State = {
     editedPage: '',
 };
 
-// tslint:disable-next-line:no-any
-export function reducer(state: State = initialState, action: any): State {
+export function reducer(state: State = initialState, action: fromApp.Actions): State {
     switch (action.type) {
-        case fromApp.EDIT_TEXT:
+        case fromApp.ActionNames.EDIT_TEXT:
             const { editedPage, editedField } = action;
             return {...state, isEditing: true, editedPage, editedField};
         default:

@@ -1,14 +1,14 @@
 {
     "headline": {
-        "key": "headline",
-        "value": "Krzywczyce"
+        "id": "headline",
+        "value": "blabla"
     },
     "headlineDescription": {
-        "key": "headlineDescription",
+        "id": "headlineDescription",
         "value": "blablabla"
     },
     "paragraph1": {
-        "key": "paragraph1",
+        "id": "paragraph1",
         "value": "value"
     }
 }
