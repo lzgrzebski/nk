@@ -1,13 +1,18 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { State, PageType } from '../../store/reducers';
+import { PageType, State } from '../../store/reducers';
 import { fetchData } from './Home.actions';
 import { editText, saveText } from '../App/App.actions';
-import { ContentContainer } from '../../components/ContentContainer';
 import * as fromHome from './Home.actions';
 import * as fromApp from '../App/App.actions';
 import { Text } from './Home.reducer';
+import TopContentContainer from '../../components/Home/TopContentContainer';
+import TopImageWrapper from '../../components/Home/TopImageWrapper';
+import TopWrapper from '../../components/Home/TopWrapper';
+import TopHeadline from '../../components/Home/TopHeadline';
 import { TextField } from '../TextField/TextField';
+import { Button } from '../../components/Button';
+import { Link } from 'react-router-dom';
 
 interface HomeProps {
     headline: Text;
@@ -27,11 +32,22 @@ class HomeContainer extends React.Component<HomeProps> {
     render() {
         const { headline } = this.props;
         return (
-            <ContentContainer>
-                <TextField page={PageType.home} id={headline.id}>
-                    {headline.value}
-                </TextField>
-            </ContentContainer>
+            <TopContentContainer>
+                <TopWrapper>
+                    <TopHeadline>Krzywczyce</TopHeadline>
+                    <TextField page={PageType.home} id={headline.id}>
+                        Wieś w Polsce, w województwie lubuskim, w powiecie żagańskim, w gminie Niegosławice.
+                        W latach 1975–1998 miejscowość administracyjnie należała do województwa zielonogórskiego.
+                        Wieś w Polsce, w województwie lubuskim, w powiecie żagańskim, w gminie Niegosławice.
+                        W latach 1975–1998 miejscowość administracyjnie należała do województwa zielonogórskiego.
+                    </TextField>
+                    <Button><Link to="/attractions">Zobacz lokalne atrakcje</Link></Button>
+                </TopWrapper>
+                <TopImageWrapper>
+                    <img src="/photos/top.png" />
+                </TopImageWrapper>
+
+            </TopContentContainer>
         );
     }
   

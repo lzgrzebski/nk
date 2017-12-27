@@ -2,6 +2,7 @@ import * as fromApp from './App.actions';
 
 export interface State {
     isLoading: boolean;
+    isAuth: boolean;
     isEditing: boolean;
     editedField: string;
     editedPage: string;
@@ -9,6 +10,7 @@ export interface State {
 
 const initialState: State = {
     isLoading: false,
+    isAuth: true,
     isEditing: false,
     editedField: '',
     editedPage: '',

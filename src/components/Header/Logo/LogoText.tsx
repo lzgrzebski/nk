@@ -7,5 +7,9 @@ export default styled.span`
     a {
         text-decoration: none;
         color: #000;
+
+        &.active {
+            display:none;
+        }
     }
 `;

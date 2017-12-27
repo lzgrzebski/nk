@@ -3,6 +3,7 @@ import { PageType, State } from '../../store/reducers';
 import { connect } from 'react-redux';
 import * as fromApp from '../App/App.actions';
 import { editText, saveText } from '../App/App.actions';
+import Paragraph from './Paragraph';
 
 interface TextFieldProps {
     page: PageType;
@@ -10,6 +11,9 @@ interface TextFieldProps {
     children: string;
 
     isEditing: boolean;
+
+    bold?: boolean;
+    padding?: string;
 
     editText: (editedPage: string, editedField: string) => fromApp.EditTextAction;
     saveText: (editedPage: string, editedField: string, changedText: string) => fromApp.SaveTextAction;
@@ -23,13 +27,17 @@ class TextFieldContainer extends React.Component<TextFieldProps> {
     }
 
     render() {
-        const { isEditing, page, id, children } = this.props;
+        const { isEditing, page, id, children, bold, padding } = this.props;
         return (
             <div>
                 {!isEditing ? (
-                    <div onClick={() => this.props.editText(page, id)}>                
+                    <Paragraph
+                        bold={bold}
+                        padding={padding}
+                        onClick={() => this.props.editText(page, id)}
+                    >                
                         {children}
-                    </div>
+                    </Paragraph>
                 ) :
                 (
                     <textarea

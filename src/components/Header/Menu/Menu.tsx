@@ -9,7 +9,6 @@ interface MenuProps {
 const links = [
     { name: 'Atrakcje', path: '/attractions' },
     { name: 'Historia', path: '/history' },
-    { name: 'Inni Piszą', path: '/others-about-us' },
     { name: 'Galeria', path: '/gallery' },
     { name: 'Kontakt', path: '/contact' }
 ];

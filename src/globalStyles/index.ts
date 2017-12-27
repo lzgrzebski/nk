@@ -1,3 +1,4 @@
+import { fluidType } from './utils/fluidType';
 import { injectGlobal } from 'styled-components';
 import normalize from 'styled-normalize';
 import { styleVariables } from './variables';
@@ -8,6 +9,16 @@ export const globalStyles = injectGlobal`
     html {
         box-sizing: border-box;
         font-family: ${styleVariables.fonts.sansSerif};
+    }
+
+    html,
+    body {
+        ${fluidType(
+            styleVariables.sizes.minWidth,
+            styleVariables.sizes.maxWidth,
+            styleVariables.sizes.minFont,
+            styleVariables.sizes.maxFont
+        )}
     }
 
     *,
@@ -46,5 +57,8 @@ export const globalStyles = injectGlobal`
 
     iframe {
         border: 0;
+        width: 100%;
+        height: 600px;
+        background: #f2f2f2;
     }
 `;
