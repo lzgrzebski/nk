@@ -8,7 +8,8 @@ import Paragraph from './Paragraph';
 interface TextFieldProps {
     page: PageType;
     id: string;
-    children: string;
+    // tslint:disable-next-line:no-any
+    children: any;
 
     isEditing: boolean;
 

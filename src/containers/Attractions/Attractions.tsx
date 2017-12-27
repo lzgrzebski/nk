@@ -15,7 +15,7 @@ class AttractionsContainer extends React.Component<AttractionsProps> {
 
     render() {
         return (
-        <div>
+        <React.Fragment>
             <ContentContainer>
                 <Headline>Atrakcje</Headline>
             </ContentContainer>
@@ -48,7 +48,7 @@ class AttractionsContainer extends React.Component<AttractionsProps> {
                 width="100%"
                 height="600"
             /> */}
-        </div>);
+        </React.Fragment>);
     }
 }
 

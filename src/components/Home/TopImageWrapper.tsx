@@ -6,7 +6,8 @@ export default styled.div`
     
     ${from('tablet')(css`
         position: absolute;
-        max-width: 65.6%;
+        max-width: 64.567%;
+        width: 100%;
         top: 0;
         right: 15px;
 
@@ -15,5 +16,6 @@ export default styled.div`
 
     img {
         width: 100%;
+        border-radius: 3px;
     }
 `;

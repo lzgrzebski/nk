@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export default styled.div`
-    padding-right: 15px;
-    min-width: 25%;
+    margin-right: 15px;
+    flex: 1;
+
+    &:last-child {
+        margin-right: 0;
+    }
 `;

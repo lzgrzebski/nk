@@ -6,5 +6,6 @@ export default styled(ContentContainer)`
     flex-direction: column-reverse;
     ${from('tablet')(css`
         flex-direction: row;
+        min-height: 717px;
     `)}
 `;
