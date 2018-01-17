@@ -1,14 +1,23 @@
 {
     "headline": {
         "id": "headline",
-        "value": "blabla"
+        "value": "Krzywczyce"
     },
     "headlineDescription": {
         "id": "headlineDescription",
-        "value": "blablabla"
+        "value": "Wieś w Polsce, w województwie lubuskim, w powiecie żagańskim, w gminie Niegosławice.\nW latach 1975–1998 miejscowość administracyjnie należała do województwa zielonogórskiego.\nWieś w Polsce, w województwie lubuskim, w powiecie żagańskim, w gminie Niegosławice.\nW latach 1975–1998 miejscowość administracyjnie należała do województwa zielonogórskiego."
     },
-    "paragraph1": {
-        "id": "paragraph1",
-        "value": "value"
+    "headlineButton": {
+        "id": "headlineButton",
+        "value": "Zobacz lokalne atrakcje"
+    },
+
+    "photoSectionHeadline": {
+        "id": "photoSectionHeadline",
+        "value": "Uroczysko w obiektywie"
+    },
+    "photoSectionMoreButton": {
+        "id": "photoSectionMoreButton",
+        "value": "Zobacz więcej zdjęć"
     }
 }

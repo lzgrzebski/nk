@@ -8,20 +8,32 @@ export interface Text {
 export interface State {
     headline: Text;
     headlineDescription: Text;
-    paragraph1: Text;
+    headlineButton: Text;
+
+    photoSectionHeadline: Text;
+    photoSectionMoreButton: Text;
 }
 
 const initialState: State = {
     headline: {
         id: 'headline',
-        value: ''
+        value: '',
     },
     headlineDescription: {
         id: 'headlineDescription',
         value: ''
     },
-    paragraph1: {
-        id: 'paragraph1',
+    headlineButton: {
+        id: 'headlineButton',
+        value: ''
+    },
+
+    photoSectionHeadline: {
+        id: 'photoSectionHeadline',
+        value: ''
+    },
+    photoSectionMoreButton: {
+        id: 'photoSectionMoreButton',
         value: ''
     },
 };

@@ -5,7 +5,7 @@ import { fetchData } from './Home.actions';
 import { editText, saveText } from '../App/App.actions';
 import * as fromHome from './Home.actions';
 import * as fromApp from '../App/App.actions';
-import { Text } from './Home.reducer';
+import * as HomeReducer from './Home.reducer';
 import TopContentContainer from '../../components/Home/TopContentContainer';
 import TopImageWrapper from '../../components/Home/TopImageWrapper';
 import TopWrapper from '../../components/Home/TopWrapper';
@@ -17,10 +17,10 @@ import { ContentContainer } from '../../components/ContentContainer';
 import { Headline } from '../../components/Headline';
 import { Photo } from '../../components/Photo';
 
-interface HomeProps {
-    headline: Text;
+interface HomeProps extends HomeReducer.State {
     isEditing: boolean;
     editedField: string;
+
     fetchData: () => fromHome.FetchDataAction;
     editText: (editedPage: string, editedField: string) => fromApp.EditTextAction;
     saveText: (editedPage: string, editedField: string, changedText: string) => fromApp.SaveTextAction;
@@ -33,19 +33,25 @@ class HomeContainer extends React.Component<HomeProps> {
     }
 
     render() {
-        const { headline } = this.props;
+        const { 
+            headline,
+            headlineDescription,
+            headlineButton,
+        
+            photoSectionHeadline,
+            photoSectionMoreButton,
+
+        } = this.props;
+
         return (
             <React.Fragment>
                 <TopContentContainer>
                     <TopWrapper>
-                        <TopHeadline>Krzywczyce</TopHeadline>
-                        <TextField page={PageType.home} id={headline.id}>
-                            Wieś w Polsce, w województwie lubuskim, w powiecie żagańskim, w gminie Niegosławice.
-                            W latach 1975–1998 miejscowość administracyjnie należała do województwa zielonogórskiego.
-                            Wieś w Polsce, w województwie lubuskim, w powiecie żagańskim, w gminie Niegosławice.
-                            W latach 1975–1998 miejscowość administracyjnie należała do województwa zielonogórskiego.
+                        <TopHeadline>{headline.value}</TopHeadline>
+                        <TextField page={PageType.home} id={headlineDescription.id}>
+                            {headlineDescription.value}
                         </TextField>
-                        <Button><Link to="/attractions">Zobacz lokalne atrakcje</Link></Button>
+                        <Button><Link to="/attractions">{headlineButton.value}</Link></Button>
                     </TopWrapper>
                     <TopImageWrapper>
                         {/* <img src="/photos/top.png" /> */}
@@ -53,7 +59,7 @@ class HomeContainer extends React.Component<HomeProps> {
                     </TopImageWrapper>
                 </TopContentContainer>
                 <ContentContainer>
-                    <Headline>Uroczysko w obiektywie</Headline>
+                    <Headline>{photoSectionHeadline.value}</Headline>
                 </ContentContainer>
                 <ContentContainer>
                     <div style={{flex: 2, paddingRight: 20}}>
@@ -72,7 +78,7 @@ class HomeContainer extends React.Component<HomeProps> {
                     </div>
                 </ContentContainer>
                 <ContentContainer center margin="40px auto">
-                    <Button invert main><Link to="/gallery">Zobacz więcej zdjęć</Link></Button>
+                    <Button invert main><Link to="/gallery">{photoSectionMoreButton.value}</Link></Button>
                 </ContentContainer>
             </React.Fragment>
         );
@@ -80,11 +86,17 @@ class HomeContainer extends React.Component<HomeProps> {
   
 }
 
-function mapStateToProps(state: State) {
+function mapStateToProps({ home, app }: State) {
     return {
-        headline: state.home.headline,
-        isEditing: state.app.isEditing,
-        editedField: state.app.editedField
+        headline: home.headline,
+        headlineDescription: home.headlineDescription,
+        headlineButton: home.headlineButton,
+
+        photoSectionHeadline: home.photoSectionHeadline,
+        photoSectionMoreButton: home.photoSectionMoreButton,
+
+        isEditing: app.isEditing,
+        editedField: app.editedField
     };
 }
 

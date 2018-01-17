@@ -21,6 +21,7 @@ interface TextFieldProps {
 }
 
 class TextFieldContainer extends React.Component<TextFieldProps> {
+    isLoggedIn = false; // TODO
 
     handleBlur = (e: React.FormEvent<HTMLTextAreaElement>): void => {
         const { page, id } = this.props;
@@ -35,7 +36,7 @@ class TextFieldContainer extends React.Component<TextFieldProps> {
                     <Paragraph
                         bold={bold}
                         padding={padding}
-                        onClick={() => this.props.editText(page, id)}
+                        onClick={() => this.isLoggedIn && this.props.editText(page, id)}
                     >                
                         {children}
                     </Paragraph>
