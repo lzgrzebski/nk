@@ -2,7 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { PageType, State } from '../../store/reducers';
 import Headline from '../../components/Headline/Headline';
-import { Photo } from '../../components/Photo/Photo';
+import { Photo } from '../Photo';
 import { ContentContainer } from '../../components/ContentContainer';
 import ContactContent from './ContactContent';
 import ContactMap from './ContactMap';

@@ -3,7 +3,7 @@ import AttractionItemWrapper from './AttractionItemWrapper';
 import { Button } from '../Button';
 import { TextField } from '../../containers/TextField';
 import AttractionItemPhoto from './AttractionItemPhoto';
-import { Photo } from '../Photo/Photo';
+import { Photo } from '../../containers/Photo';
 import { PageType } from '../../store/reducers';
 
 interface AttractionItemProps {

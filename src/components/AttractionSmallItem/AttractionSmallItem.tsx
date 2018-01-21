@@ -1,6 +1,6 @@
 import { PageType } from '../../store/reducers';
 import * as React from 'react';
-import { Photo } from '../Photo/Photo';
+import { Photo } from '../../containers/Photo';
 import AttractionItemSmallWrapper from './AttractionItemSmallWrapper';
 import { TextField } from '../../containers/TextField';
 

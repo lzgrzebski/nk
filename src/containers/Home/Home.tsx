@@ -15,7 +15,7 @@ import { Button } from '../../components/Button';
 import { Link } from 'react-router-dom';
 import { ContentContainer } from '../../components/ContentContainer';
 import { Headline } from '../../components/Headline';
-import { Photo } from '../../components/Photo';
+import { Photo } from '../Photo';
 
 interface HomeProps extends HomeReducer.State {
     isEditing: boolean;
@@ -55,7 +55,7 @@ class HomeContainer extends React.Component<HomeProps> {
                     </TopWrapper>
                     <TopImageWrapper>
                         {/* <img src="/photos/top.png" /> */}
-                        <Photo ratio={712 / 820} />
+                        <Photo path="/photos/top.png" ratio={712 / 820} />
                     </TopImageWrapper>
                 </TopContentContainer>
                 <ContentContainer>

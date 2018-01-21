@@ -6,7 +6,7 @@ import { ContentContainer } from '../../components/ContentContainer';
 import { TextField } from '../TextField/TextField';
 import TextWrapper from './TextWrapper';
 import ImageWrapper from './ImageWrapper';
-import { Photo } from '../../components/Photo';
+import { Photo } from '../Photo';
 
 interface HistoryProps {
 

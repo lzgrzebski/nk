@@ -27,7 +27,7 @@ const initialState: State = {
         id: 'headlineButton',
         value: ''
     },
-
+    
     photoSectionHeadline: {
         id: 'photoSectionHeadline',
         value: ''

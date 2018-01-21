@@ -5,7 +5,7 @@ import { State } from '../../store/reducers';
 import Headline from '../../components/Headline/Headline';
 import Container from '../../components/Header/Container';
 import GalleryGrid from './GalleryGrid';
-import { Photo } from '../../components/Photo/Photo';
+import { Photo } from '../Photo';
 import GalleryItem from './GalleryItem';
 
 interface GalleryProps {
