@@ -22,10 +22,11 @@ export class Photo extends React.Component<PhotoProps, PhotoState> {
     }
 
     render() {
+        const basename = process.env.PUBLIC_URL || '';
         return (
             <PhotoWrapper ratio={this.props.ratio}>
                 <PhotoElement
-                    src={this.props.path}
+                    src={basename + this.props.path}
                     onLoad={this.handleLoad}
                     loaded={this.state.loaded}
                 />
