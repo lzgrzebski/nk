@@ -35,10 +35,15 @@ class HomeContainer extends React.Component<HomeProps> {
     render() {
         const { 
             headline,
+            headlinePhoto,
             headlineDescription,
             headlineButton,
         
             photoSectionHeadline,
+            photoSectionElement1,
+            photoSectionElement2,
+            photoSectionElement3,
+            photoSectionElement4,
             photoSectionMoreButton,
 
         } = this.props;
@@ -54,8 +59,7 @@ class HomeContainer extends React.Component<HomeProps> {
                         <Button><Link to="/attractions">{headlineButton.value}</Link></Button>
                     </TopWrapper>
                     <TopImageWrapper>
-                        {/* <img src="/photos/top.png" /> */}
-                        <Photo path="/photos/top.png" ratio={712 / 820} />
+                        <Photo path={headlinePhoto.path} ratio={headlinePhoto.height / headlinePhoto.width} />
                     </TopImageWrapper>
                 </TopContentContainer>
                 <ContentContainer>
@@ -63,18 +67,18 @@ class HomeContainer extends React.Component<HomeProps> {
                 </ContentContainer>
                 <ContentContainer>
                     <div style={{flex: 2, paddingRight: 20}}>
-                        <Photo />
+                        <Photo path={photoSectionElement1.path} />
                     </div>
                     <div style={{flex: 1}}>
-                        <Photo ratio={1.2} />
+                        <Photo ratio={1.2} path={photoSectionElement2.path} />
                     </div>
                 </ContentContainer>
                 <ContentContainer>
                     <div style={{flex: 1, paddingRight: 20}}>
-                        <Photo />
+                        <Photo path={photoSectionElement3.path} />
                     </div>
                     <div style={{flex: 1}}>
-                        <Photo />
+                        <Photo path={photoSectionElement4.path} />
                     </div>
                 </ContentContainer>
                 <ContentContainer center margin="40px auto">
@@ -89,10 +93,15 @@ class HomeContainer extends React.Component<HomeProps> {
 function mapStateToProps({ home, app }: State) {
     return {
         headline: home.headline,
+        headlinePhoto: home.headlinePhoto,
         headlineDescription: home.headlineDescription,
         headlineButton: home.headlineButton,
 
         photoSectionHeadline: home.photoSectionHeadline,
+        photoSectionElement1: home.photoSectionElement1,
+        photoSectionElement2: home.photoSectionElement2,
+        photoSectionElement3: home.photoSectionElement3,
+        photoSectionElement4: home.photoSectionElement4,
         photoSectionMoreButton: home.photoSectionMoreButton,
 
         isEditing: app.isEditing,

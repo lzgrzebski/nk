@@ -23,6 +23,8 @@ export default withProps<PhotoElementProps>()(styled.img)`
     transition: opacity 0.3s ease-in-out;
     will-change: opacity;
 
+    border-radius: 3px;
+
     opacity: ${ (p: PhotoElementProps) => p.loaded ? 1 : 0 };
 
 `;

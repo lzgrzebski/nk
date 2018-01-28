@@ -5,6 +5,6 @@ export default styled.div`
     width: 100%;
 
     ${from('tablet')(css`
-        max-width: 44%;
+        max-width: 41%;
     `)}
 `;

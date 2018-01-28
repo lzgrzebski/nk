@@ -37,9 +37,8 @@ class TextFieldContainer extends React.Component<TextFieldProps> {
                         bold={bold}
                         padding={padding}
                         onClick={() => this.isLoggedIn && this.props.editText(page, id)}
-                    >                
-                        {children}
-                    </Paragraph>
+                        dangerouslySetInnerHTML={{ __html: children }}
+                    />
                 ) :
                 (
                     <textarea
