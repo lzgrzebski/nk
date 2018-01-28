@@ -10,6 +10,6 @@ export const fetchData = (action$: ActionsObservable<Action>): Observable<Action
     action$
         .ofType(fromHome.ActionNames.FETCH_DATA)
         .mergeMap(action =>
-            ajax.getJSON('/mock/Home.data.mock.json')
+            ajax.getJSON(`${process.env.PUBLIC_URL}/mock/Home.data.mock.json`)
                 .map((response: State) => fromHome.fetchDataFulfilled(response))
         );
