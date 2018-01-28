@@ -1,0 +1,58 @@
+{
+    "headline": {
+        "id": "headline",
+        "value": "Krzywczyce"
+    },
+    "headlinePhoto": {
+        "id": "headlinePhoto",
+        "path": "/photos/home/top.jpg",
+        "width": 820,
+        "height": 712,
+        "description": ""
+    },
+    "headlineDescription": {
+        "id": "headlineDescription",
+        "value": "Krzywczyce to maleńka, urokliwa wieś zagubiona w północnych rubieżach Borów Dolnośląskich. W lesie kończy się droga asfaltowa. A jakże, przy domu Sołtysa... Czas płynie tu leniwie. To zasługa życzliwych mieszkańców. Wszystkich… stu!<br /> <br />Wieś administracyjnie jest częścią gminy Niegosławice w powiecie żagańskim (woj. lubuskie). Jej udokumentowana historia sięga końca XVIII wieku, choć pewne archeologiczne znaleziska świadczą o tym, że człowiek przebywał tu już <br/>w okresie paleolitu.."
+    },
+    "headlineButton": {
+        "id": "headlineButton",
+        "value": "Zobacz lokalne atrakcje"
+    },
+
+    "photoSectionHeadline": {
+        "id": "photoSectionHeadline",
+        "value": "Uroczysko w obiektywie"
+    },
+    "photoSectionElement1": {
+        "id": "photoSectionElement1",
+        "path": "/photos/home/1.jpg",
+        "width": 813,
+        "height": 488,
+        "description": ""
+    },
+    "photoSectionElement2": {
+        "id": "photoSectionElement2",
+        "path": "/photos/home/2.jpg",
+        "width": 407,
+        "height": 488,
+        "description": ""
+    },
+    "photoSectionElement3": {
+        "id": "photoSectionElement3",
+        "path": "/photos/home/3.jpg",
+        "width": 610,
+        "height": 366,
+        "description": ""
+    },
+    "photoSectionElement4": {
+        "id": "photoSectionElement4",
+        "path": "/photos/home/4.jpg",
+        "width": 610,
+        "height": 366,
+        "description": ""
+    },
+    "photoSectionMoreButton": {
+        "id": "photoSectionMoreButton",
+        "value": "Zobacz więcej zdjęć"
+    }
+}
