@@ -5,14 +5,14 @@ import AttractionItemSmallWrapper from './AttractionItemSmallWrapper';
 import { TextField } from '../../containers/TextField';
 
 interface AttractionItemProps {
-
+    title: string;
 }
 
-export const AttractionSmallItem: React.SFC<AttractionItemProps> = (props) => (
+export const AttractionSmallItem: React.SFC<AttractionItemProps> = ({title}) => (
     <AttractionItemSmallWrapper>
         <Photo />
         <TextField page={PageType.home} id="asd">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            {title}
         </TextField>
     </AttractionItemSmallWrapper>
 );

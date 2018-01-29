@@ -7,17 +7,17 @@ import { Photo } from '../../containers/Photo';
 import { PageType } from '../../store/reducers';
 
 interface AttractionItemProps {
-
+    title: string;
 }
 
-export const AttractionItem: React.SFC<AttractionItemProps> = (props) => (
+export const AttractionItem: React.SFC<AttractionItemProps> = ({title}) => (
     <AttractionItemWrapper>
         <AttractionItemPhoto>
             <Photo />
         </AttractionItemPhoto>
         <div>
             <TextField bold padding="0" page={PageType.home} id="asd">
-                What is Lorem Ipsum?
+                {title}
             </TextField>
             <TextField padding="0" page={PageType.home} id="asd">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
