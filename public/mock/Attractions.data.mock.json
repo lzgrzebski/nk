@@ -1,0 +1,85 @@
+{
+    "attractions": [
+        {
+            "title": "Leśna stadnina",
+            "description": "Stadnina koni działa w Krzywczycach od wielu lat. Stała się wizytówką wsi. Już sama nazwa stadniny sugeruje jej położenie. Piękny las otacza teren wybiegu niemal dookoła. Wzrok przyciągają przechadzające się spokojne i ułożone wierzchowce. Niewielki staw, grill i wiata do biesiadowania, a ciszę przerywa tylko świergot ptaków. Wymarzone miejsce dla miłośników koni.",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Warsztat ebenistyczny",
+            "description": "Ebenista to zawód ginący, więc rzadko zdarza się okazja do obserwowania jak powstają artystyczne meble. Warsztat ebenistyczny mieści się w jednym z trzech budynków z drewnianych bali na malowniczej działce, tuż obok lasu. Odwiedzający to miejsce mogą zobaczyć przy pracy artystę-ebenistę, lub spróbować własnych sił i samodzielnie stworzyć drewnianą płaskorzeźbę.",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Dolina szprotawki",
+            "description": "Rzeka Szprotawka (inaczej Szprotawa) oraz przylegające do niej mokradła i łąki to wartościowy przyrodniczo obszar chronionego krajobrazu. Rzeka Szprotawa posiada bardzo spokojny nurt przyjazny nawet dla niedoświadczonych kajakarzy. Podziwianie przyrody od strony rzeki zawsze pozostawia niezapomniane wspomnienia.",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Bory dolnośląskie",
+            "description": "Krzywczyce otacza rozległy kompleks Borów Dolnośląskich (Obszar Natura 2000) dający wspaniałą możliwość pieszych i rowerowych wędrówek. Okoliczny las obfituje w jagody i grzyby. Szczególnie z tych ostatnich słynne są Krzywczyce. Oprócz korzystania z ogactwa leśnego runa miłośnicy natury mogą słuchać ptaków i szumiących drzew.",
+            "image": "",
+            "link": ""
+        }
+    ],
+    "plans": {
+        "title": "Plany",
+        "description": "<b>Uroczysko Krzywczyce</b> wymaga zbudowania dobrej bazy turystycznej. Aby w pełni wykorzystać potencjał okolicy dla rekreacji i wypoczynku planuje się różne działania:",
+        "points": [
+            "rozwój agroturystycznej bazy noclegowej",
+            "uruchomienie schroniska młodzieżowego w budynku szkoły",
+            "budowa przystani kajakowej wraz z miejscem do biwakowania",
+            "budowa zbiornika retencyjnego na rzece Szprotawie",
+            "rewitalizacja zabytków architektury i przyrody",
+            "utrzymanie kameralnego charakteru wsi",
+            "ochrona krajobrazu przed wprowadzaniem obiektów przemysłowych"
+        ]
+    },
+    "otherAttractionsTitle": "Inne ciekawe miejsca w okolicy",
+    "otherAttractions": [
+        {
+            "title":"Pałac Wiechlice",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Dąb Chrobry",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Rezerwat Buczyna Szprotawska",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Przemkowski Park Krajobrazowy",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Stawy Przemkowskie",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Dolina Bobru",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Pałac Cieciszów - Ruiny",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Baza Wojskowa Wiechlice",
+            "image": "",
+            "link": ""
+        }
+    ]
+    
+}

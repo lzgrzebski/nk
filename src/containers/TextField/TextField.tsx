@@ -15,6 +15,7 @@ interface TextFieldProps {
 
     bold?: boolean;
     padding?: string;
+    margin?: string;
 
     editText: (editedPage: string, editedField: string) => fromApp.EditTextAction;
     saveText: (editedPage: string, editedField: string, changedText: string) => fromApp.SaveTextAction;
@@ -29,13 +30,14 @@ class TextFieldContainer extends React.Component<TextFieldProps> {
     }
 
     render() {
-        const { isEditing, page, id, children, bold, padding } = this.props;
+        const { isEditing, page, id, children, bold, padding, margin } = this.props;
         return (
             <div>
                 {!isEditing ? (
                     <Paragraph
                         bold={bold}
                         padding={padding}
+                        margin={margin}
                         onClick={() => this.isLoggedIn && this.props.editText(page, id)}
                         dangerouslySetInnerHTML={{ __html: children }}
                     />

@@ -8,25 +8,31 @@ import { PageType } from '../../store/reducers';
 
 interface AttractionItemProps {
     title: string;
+    description?: string;
 }
 
-export const AttractionItem: React.SFC<AttractionItemProps> = ({title}) => (
+const AttractionItem: React.SFC<AttractionItemProps> = ({title, description}) => (
     <AttractionItemWrapper>
         <AttractionItemPhoto>
             <Photo />
         </AttractionItemPhoto>
         <div>
-            <TextField bold padding="0" page={PageType.home} id="asd">
+            <TextField bold padding="0" margin="-2px 0 0 0" page={PageType.home} id="asd">
                 {title}
             </TextField>
             <TextField padding="0" page={PageType.home} id="asd">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                {description}
             </TextField>
             <Button>Więcej informacji</Button>
         </div>
     </AttractionItemWrapper>
 );
+
+AttractionItem.defaultProps = {
+    description: ''
+};
+
+// tslint:disable-next-line:align
+export { AttractionItem };
 
 export default AttractionItem;
