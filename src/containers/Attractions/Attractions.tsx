@@ -55,7 +55,12 @@ class AttractionsContainer extends React.Component<AttractionsProps> {
                 ))}
             </ContentContainer>
             <ContentContainer>
-                {otherAttractions.slice(4).map(attraction => (
+                {otherAttractions.slice(4, 8).map(attraction => (
+                    <AttractionSmallItem key={attraction.title} {...attraction} />
+                ))}
+            </ContentContainer>
+            <ContentContainer>
+                {otherAttractions.slice(8, 12).map(attraction => (
                     <AttractionSmallItem key={attraction.title} {...attraction} />
                 ))}
             </ContentContainer>

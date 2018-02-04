@@ -1,6 +1,7 @@
 import { fontSize } from '../../globalStyles/utils/fontSize';
 import { withProps } from '../../globalStyles/utils/withProps';
 import styled from 'styled-components';
+import { styleVariables } from '../../globalStyles/variables';
 
 interface ParagraphProps {
     bold?: boolean;
@@ -18,5 +19,14 @@ export default withProps<ParagraphProps>()(styled.p)`
 
     b {
         color: #333;
+    }
+
+    a {
+        color: ${ styleVariables.colors.primary };
+        text-decoration: none;
+
+        &:hover {
+            color: ${ styleVariables.colors.primary };
+        }
     }
 `;

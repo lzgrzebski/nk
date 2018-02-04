@@ -8,6 +8,8 @@ import ContactContent from './ContactContent';
 import ContactMap from './ContactMap';
 import { TextField } from '../TextField/TextField';
 import ContactWrapper from './ContactWrapper';
+import { FooterSocial } from '../../components/Footer/FooterSocial/FooterSocial';
+import ContactSocialWrapper from './ContactSocialWrapper';
 
 interface ContactProps {
 
@@ -24,13 +26,17 @@ class ContactContainer extends React.Component<ContactProps> {
             <ContactWrapper>
                 <ContactContent>
                     <TextField padding="0" page={PageType.home} id="asd">
-                        Strona prowadzona przez Stowarzyszenie "Nasze Krzywczyce".<br />
-                        tel. 721-721-721<br />
-                        email: email[at]email.pl<br />
+                        {`
+                            Strona prowadzona przez Stowarzyszenie <b>Nasze Krzywczyce</b><br />
+                            e-mail: <a href="mailto:nasze.krzywczyce@.o2.pl">nasze.krzywczyce@.o2.pl</a>
+                        `}
                     </TextField>
+                    <ContactSocialWrapper>
+                        <FooterSocial />
+                    </ContactSocialWrapper>
                 </ContactContent>
                 <ContactMap>
-                    <Photo />
+                    <Photo path="/photos/contact/1.jpg" ratio={405 / 608} />
                 </ContactMap>
             </ContactWrapper>
         </React.Fragment>);

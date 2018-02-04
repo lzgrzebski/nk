@@ -3,6 +3,7 @@ import * as fromHome from './Home.actions';
 export interface Text {
     id: string;
     value: string;
+    type?: 'text';
 }
 
 export interface Photo {
@@ -11,6 +12,7 @@ export interface Photo {
     width: number;
     height: number;
     description: string;
+    type?: 'photo';
 }
 
 export interface State {
