@@ -2,25 +2,25 @@
     "attractions": [
         {
             "title": "Leśna stadnina",
-            "description": "Stadnina koni działa w Krzywczycach od wielu lat. Stała się wizytówką wsi. Już sama nazwa stadniny sugeruje jej położenie. Piękny las otacza teren wybiegu niemal dookoła. Wzrok przyciągają przechadzające się spokojne i ułożone wierzchowce. Niewielki staw, grill i wiata do biesiadowania, a ciszę przerywa tylko świergot ptaków. Wymarzone miejsce dla miłośników koni.",
+            "description": "Stadnina koni działa w Krzywczycach od wielu lat. Stała się wizytówką wsi. Już sama nazwa stadniny  sugeruje jej położenie. Piękny las otacza teren wybiegu niemal dookoła. Wzrok przyciągają przechadzające się spokojne i ułożone wierzchowce. Niewielki staw, grill i wiata do biesiadowania, a ciszę przerywa tylko świergot ptaków. Wymarzone miejsce dla miłośników koni.",
             "image": "",
             "link": ""
         },
         {
             "title": "Warsztat ebenistyczny",
-            "description": "Ebenista to zawód ginący, więc rzadko zdarza się okazja do obserwowania jak powstają artystyczne meble. Warsztat ebenistyczny mieści się w jednym z trzech budynków z drewnianych bali na malowniczej działce, tuż obok lasu. Odwiedzający to miejsce mogą zobaczyć przy pracy artystę-ebenistę, lub spróbować własnych sił i samodzielnie stworzyć drewnianą płaskorzeźbę.",
+            "description": "Ebenista to zawód ginący, więc rzadko zdarza się okazja do obserwowania jak powstają artystyczne meble. Warsztat artystyczny mieści się w jednym z trzech budynków z drewnianych bali na malowniczej działce w Krzywczycach, tuż obok lasu. Odwiedzający to miejsce goście  mogą zobaczyć przy pracy artystę-ebenistę, lub spróbować własnych sił i samodzielnie stworzyć drewnianą płaskorzeźbę.",
             "image": "",
             "link": ""
         },
         {
             "title": "Dolina szprotawki",
-            "description": "Rzeka Szprotawka (inaczej Szprotawa) oraz przylegające do niej mokradła i łąki to wartościowy przyrodniczo obszar chronionego krajobrazu. Rzeka Szprotawa posiada bardzo spokojny nurt przyjazny nawet dla niedoświadczonych kajakarzy. Podziwianie przyrody od strony rzeki zawsze pozostawia niezapomniane wspomnienia.",
+            "description": "Rzeka Szprotawka (inaczej Szprotawa) oraz przylegające do niej mokradła i łąki to wartościowy przyrodniczo obszar chronionego krajobrazu. Rzeka posiada bardzo spokojny nurt, przyjazny nawet dla niedoświadczonych kajakarzy. Podziwianie przyrody od strony wody zawsze pozostawia niezapomniane wspomnienia.",
             "image": "",
             "link": ""
         },
         {
             "title": "Bory dolnośląskie",
-            "description": "Krzywczyce otacza rozległy kompleks Borów Dolnośląskich (Obszar Natura 2000) dający wspaniałą możliwość pieszych i rowerowych wędrówek. Okoliczny las obfituje w jagody i grzyby. Szczególnie z tych ostatnich słynne są Krzywczyce. Oprócz korzystania z ogactwa leśnego runa miłośnicy natury mogą słuchać ptaków i szumiących drzew.",
+            "description": "Krzywczyce otacza rozległy kompleks Borów Dolnośląskich (Obszar Natura 2000). Las zachęca do pieszych i rowerowych wędrówek oraz  obfituje w jagody i grzyby. Szczególnie z tych ostatnich słynne są Krzywczyce. Oprócz korzystania z bogactwa leśnego runa miłośnicy natury mogą słuchać ptaków i szumiących drzew.",
             "image": "",
             "link": ""
         }
@@ -46,6 +46,31 @@
             "link": ""
         },
         {
+            "title":"Pałac Sucha Dolna - ruiny",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Pałac Cieciszów - ruiny",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Szprotawa",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Przemków",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Baza wojsk Wiechlice",
+            "image": "",
+            "link": ""
+        },
+        {
             "title":"Dąb Chrobry",
             "image": "",
             "link": ""
@@ -56,27 +81,22 @@
             "link": ""
         },
         {
+            "title":"Rezerwat Stawy Przemkowskie",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title":"Przemkowskie Bagno",
+            "image": "",
+            "link": ""
+        },
+        {
             "title":"Przemkowski Park Krajobrazowy",
             "image": "",
             "link": ""
         },
         {
-            "title":"Stawy Przemkowskie",
-            "image": "",
-            "link": ""
-        },
-        {
             "title":"Dolina Bobru",
-            "image": "",
-            "link": ""
-        },
-        {
-            "title":"Pałac Cieciszów - Ruiny",
-            "image": "",
-            "link": ""
-        },
-        {
-            "title":"Baza Wojskowa Wiechlice",
             "image": "",
             "link": ""
         }

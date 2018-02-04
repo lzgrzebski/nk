@@ -1,0 +1,106 @@
+{
+    "historyArray": [
+        {
+            "id": "historyText1",
+            "value": "Krzywczyce. „Niewielka regularna osada powstała dość późno, bo dopiero w XVIII wieku, co świadczy na tym obszarze na korzyść przewagi występujących sił przyrody nad zakusami gospodarczymi człowieka. Jako teren trudno przystępny z racji otaczających wód, ponadto o przewadze piaszczystych gleb bielicowych, raczej nie zachęcał do osadnictwa. Założył ją w 1770 roku starosta Eckartsberg z sąsiedniej Suchej Dolnej, stąd dawna nazwa wsi Eckartswaldau.",
+            "type": "text"
+        },
+        {
+            "id": "historyPhoto1",
+            "path": "/photos/history/1.jpg",
+            "width": 1050,
+            "height": 366,
+            "description": "Pałac w Suchej Dolnej ok. 1911 na starej karcie pocztowej",
+            "type": "photo"
+        },
+        {
+            "id": "historyText2",
+            "value": "Końcówka „-waldau” od niemieckiego „Wald” = las potwierdza, że wieś została wydarta pradawnej dolnośląskiej puszczy. Ale pewna okoliczność świadczy o starszej penetracji tego terenu przez ludzi. Mianowicie historyczne mapy ukazują przechodzącą przez naszą krzywczycką wyspę Drogę Solną. Wiodła ona zapewne od składów solnych  w Nowej Soli w kierunku Bolesławca i dalej na południe. Kiedy Krzywczyc jeszcze nie było, istniał tu most, którego otoczenie nazywało się „nad zniszczonym mostem”.",
+            "type": "text"
+        },
+        {
+            "id": "historyPhoto2",
+            "path": "/photos/history/2.jpg",
+            "width": 1050,
+            "height": 780,
+            "description": "Fragment mapy z 1911r. pochodzącej ze zbiorów Wydziału Nauk Geograficznych Uniwersytetu Łódzkiego - Biblioteka WNG ( źródło: http://igrek.amzp.pl/)",
+            "type": "photo"
+        },
+        {
+            "id": "historyText3",
+            "value": "Bardzo intrygującym jest pewne znalezisko archeologiczne z Krzywczyc przemawiające za hipotezą, że naturalnie chroniona wodami wyspa mogła stanowić schronienie dla ludzi lub przejściowe obozowisko już w czasach epoki kamienia. Mowa o głowicy topora bojowego znalezionego na terenie miejscowej szkółki leśnej, datowanej na okres neolitu, tj. młodszej epoki kamienia. Prymitywnie wykończona lub nadniszczona  głowica jest obecnie przechowywana w Muzeum Ziemi Szprotawskiej i stanowi jeden z najcenniejszych eksponatów tej instytucji.”",
+            "type": "text"
+        },
+        {
+            "id": "historyPhoto3",
+            "path": "/photos/history/3.jpg",
+            "width": 1050,
+            "height": 592,
+            "description": "Eksponat wystawiony w Muzeum Ziemi Szprotawskiej",
+            "type": "photo"
+        },
+        {
+            "id": "historyText4",
+            "value": "Przytoczony , obszerny cytat został w całości zaczerpnięty z artykułu: Maciej Boryna „Krzywczyce. Obozowisko starożytnych myśliwych?” (źródło: http://borynam.wixsite.com/borydolnoslaskie/krzywczyce-- -staroytne- obozowisko).<br/> <br/> Po II wojnie światowej nadawaniu polskich nazw miejscowościom na Ziemiach Zachodnich towarzyszył spory chaos.  Eckartswaldau (czasem spotykana forma pisowni Eckertswaldau), mimo niewątpliwego pochodzenia od niemieckiego nazwiska, można próbować tłumaczyć również bezpośrednio. „Ecke” oznacza kąt, lub róg, a „Wald”, jak wcześniej podano, to las. W dużym uproszczeniu to Krzywy Las? Jeśli tak, to pojawia się wyraźny związek z przedwojennymi Krzywczycami w województwie lwowskim, których miano historycy wywodzą od lasu na okolicznych wzniesieniach tzw. Krzywego Lasu.",
+            "type": "text"
+        },
+        {
+            "id": "historyPhoto4",
+            "path": "/photos/history/4.jpg",
+            "width": 1050,
+            "height": 700,
+            "description": "",
+            "type": "photo"
+        },
+        {
+            "id": "historyText5",
+            "value": "W okolicy napotkamy ślady historii.<br />Pałac w Suchej Dolnej, stanowiący dobra rodziny odpowiedzialnej za powstanie Krzywczyc, przetrwał zawieruchę wojenną i okres zarządzania PGR. Niestety po sprzedaży prywatnemu właścicielowi, który zdemontował dach, budynek popada w ruinę.",
+            "type": "text"
+        },
+        {
+            "id": "historyPhoto5",
+            "path": "/photos/history/5.jpg",
+            "width": 1050,
+            "height": 700,
+            "description": "",
+            "type": "photo"
+        },
+        {
+            "id": "historyText6",
+            "value": "W najbliższej okolicy natkniemy się jeszcze na dwa świadectwa przeszłości. To ruiny przedwojennych cmentarzy. Na pierwszym chowani byli mieszkańcy Suchej Dolnej i Krzywczyc, natomiast na drugim członkowie rodziny von Klitzing. Ludzie zaglądają tu rzadko, więc można usiąść pod starymi drzewami i pogrążyć się w zadumie.",
+            "type": "text"
+        },
+        {
+            "id": "historyPhoto6",
+            "path": "/photos/history/6.jpg",
+            "width": 1050,
+            "height": 700,
+            "description": "",
+            "type": "photo"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "id": "historyPhoto7",
+            "path": "/photos/history/7.jpg",
+            "width": 1050,
+            "height": 700,
+            "description": "",
+            "type": "photo"
+        },
+        {
+            "id": "historyText7",
+            "value": "Niektórych zabytków nie da się już uratować. Jednak optymizmem napawa, że coraz liczniej pojawiają się ludzie i organizacje, które dbają o zachowanie pamięci o przeszłych czasach.",
+            "type": "text"
+        },        
+        {
+            "id": "historyPhoto8",
+            "path": "/photos/history/8.jpg",
+            "width": 1050,
+            "height": 788,
+            "description": "",
+            "type": "photo"
+        }
+    ]
+}
