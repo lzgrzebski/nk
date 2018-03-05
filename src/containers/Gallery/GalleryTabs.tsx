@@ -9,16 +9,16 @@ interface GalleryTabsProps {
 
 const links = [
     { name: 'Okolica', path: '/gallery' },
-    { name: 'Przyroda', path: '/a1' },
-    { name: 'Konie', path: '/a2' },
-    { name: 'W obiektywie', path: '/a3' }
+    { name: 'Przyroda', path: '/gallery/przyroda' },
+    { name: 'Konie', path: '/gallery/konie' },
+    { name: 'W obiektywie', path: '/gallery/wobiektywie' }
 ];
 export const GalleryTabs: React.SFC<GalleryTabsProps> = (props) => (
     <GalleryTabsWrapper>
         {
             links.map(link => (
                 <GalleryTabItem key={link.path}>
-                    <NavLink to={link.path} activeClassName="active">{link.name}</NavLink>
+                    <NavLink to={link.path} exact activeClassName="active">{link.name}</NavLink>
                 </GalleryTabItem>
             ))
         }

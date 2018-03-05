@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 import reduceReducers from 'reduce-reducers';
+
 import * as homeReducer from '../containers/Home/Home.reducer';
 import * as attractionsReducer from '../containers/Attractions/Attractions.reducer';
+import * as galleryReducer from '../containers/Gallery/Gallery.reducer';
 import * as historyReducer from '../containers/History/History.reducer';
 import * as appReducer from '../containers/App/App.reducer';
 import * as fromApp from '../containers/App/App.actions';
@@ -11,6 +13,7 @@ export enum PageType {
   home = 'home',
   attractions = 'attractions',
   history = 'history',
+  gallery = 'gallery',
 }
 
 export interface State {
@@ -18,6 +21,7 @@ export interface State {
   home: homeReducer.State;
   attractions: attractionsReducer.State;
   history: historyReducer.State;
+  gallery: galleryReducer.State;
 }
 
 function globalReducer(state: State, action: fromApp.Actions) {
@@ -50,7 +54,8 @@ const rootReducer = reduceReducers(
     [PageType.app]: appReducer.reducer,
     [PageType.home]: homeReducer.reducer,
     [PageType.attractions]: attractionsReducer.reducer,
-    [PageType.history]: historyReducer.reducer
+    [PageType.history]: historyReducer.reducer,
+    [PageType.gallery]: galleryReducer.reducer
   }),
   globalReducer
 );

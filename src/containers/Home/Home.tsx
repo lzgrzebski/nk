@@ -82,7 +82,7 @@ class HomeContainer extends React.Component<HomeProps> {
                     </div>
                 </ContentContainer>
                 <ContentContainer center margin="40px auto">
-                    <Button invert main><Link to="/gallery">{photoSectionMoreButton.value}</Link></Button>
+                    <Button invert main><Link to="/gallery/okolica">{photoSectionMoreButton.value}</Link></Button>
                 </ContentContainer>
             </React.Fragment>
         );

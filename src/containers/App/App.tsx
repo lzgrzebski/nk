@@ -21,7 +21,7 @@ export class App extends React.Component<AppProps> {
           <Route exact path="/" component={Home} />
           <Route exact path="/attractions" component={Attractions} />
           <Route exact path="/history" component={History} />   
-          <Route exact path="/gallery" component={Gallery} />
+          <Route path="/gallery/:category?" component={Gallery} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
         <Footer />

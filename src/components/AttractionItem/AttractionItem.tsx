@@ -8,13 +8,17 @@ import { PageType } from '../../store/reducers';
 
 interface AttractionItemProps {
     title: string;
+    image: string;
     description?: string;
 }
 
-const AttractionItem: React.SFC<AttractionItemProps> = ({title, description}) => (
+const AttractionItem: React.SFC<AttractionItemProps> = ({title, description, image}) => (
     <AttractionItemWrapper>
         <AttractionItemPhoto>
-            <Photo />
+            <Photo
+                path={image}
+                ratio={270 / 450}
+            />
         </AttractionItemPhoto>
         <div>
             <TextField bold padding="0" margin="-2px 0 0 0" page={PageType.home} id="asd">

@@ -74,11 +74,6 @@ class AttractionsContainer extends React.Component<AttractionsProps> {
                     </a>
                 </Button>
             </ContentContainer>
-            {/* <iframe
-                src="https://www.google.com/maps/d/embed?mid=1MY6YyhpPiSo3c4d72yMiaOtkkew&hl=pl"
-                width="100%"
-                height="600"
-            /> */}
         </React.Fragment>);
     }
 }

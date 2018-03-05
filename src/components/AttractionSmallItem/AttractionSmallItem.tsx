@@ -6,11 +6,14 @@ import { TextField } from '../../containers/TextField';
 
 interface AttractionItemProps {
     title: string;
+    image: string;
 }
 
-export const AttractionSmallItem: React.SFC<AttractionItemProps> = ({title}) => (
+export const AttractionSmallItem: React.SFC<AttractionItemProps> = ({title, image}) => (
     <AttractionItemSmallWrapper>
-        <Photo />
+        <Photo
+            path={image}
+        />
         <TextField page={PageType.home} id="asd">
             {title}
         </TextField>

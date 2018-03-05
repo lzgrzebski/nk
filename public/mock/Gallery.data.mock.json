@@ -1,8 +1,269 @@
 {
-    "1.jpg": {
-        "path": "./1.jpg",
-        "description": "",
-        "width": "500",
-        "height": "350"
-    }
+    "okolica": [
+        {
+            "name": "",
+            "photos": [
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        }
+    ],
+    "przyroda": [
+        {
+            "name": "",
+            "photos": [
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        }
+    ],
+    "konie": [
+        {
+            "name": "",
+            "photos": [
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        }
+    ],
+    "wobiektywie": [
+        {
+            "name": "Przemysław Zgrzebski",
+            "photos": [
+                {
+                    "id": "okolicaPhoto1",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto2",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto3",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto4",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        },
+        {
+            "name": "Małgorzata Cerkowniak",
+            "photos": [
+                {
+                    "id": "okolicaPhoto5",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto6",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto7",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto8",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        },
+        {
+            "name": "Iwona Piotrowska-Multan",
+            "photos": [
+                {
+                    "id": "okolicaPhoto5",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto6",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto7",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto8",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        },
+        {
+            "name": "Andrzej Gajdziński",
+            "photos": [
+                {
+                    "id": "okolicaPhoto5",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto6",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto7",
+                    "path": "/photos/galeria/okolica1.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto8",
+                    "path": "/photos/history/okolica2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        }
+    ]    
 }
