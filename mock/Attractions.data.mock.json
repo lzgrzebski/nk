@@ -1,27 +1,27 @@
 {
     "attractions": [
         {
-            "title": "Leśna stadnina",
+            "title": "Leśna Stadnina",
             "description": "Stadnina koni działa w Krzywczycach od wielu lat. Stała się wizytówką wsi. Już sama nazwa stadniny  sugeruje jej położenie. Piękny las otacza teren wybiegu niemal dookoła. Wzrok przyciągają przechadzające się spokojne i ułożone wierzchowce. Niewielki staw, grill i wiata do biesiadowania, a ciszę przerywa tylko świergot ptaków. Wymarzone miejsce dla miłośników koni.",
-            "image": "",
+            "image": "/photos/attractions/stadnina.jpg",
             "link": ""
         },
         {
             "title": "Warsztat ebenistyczny",
             "description": "Ebenista to zawód ginący, więc rzadko zdarza się okazja do obserwowania jak powstają artystyczne meble. Warsztat artystyczny mieści się w jednym z trzech budynków z drewnianych bali na malowniczej działce w Krzywczycach, tuż obok lasu. Odwiedzający to miejsce goście  mogą zobaczyć przy pracy artystę-ebenistę, lub spróbować własnych sił i samodzielnie stworzyć drewnianą płaskorzeźbę.",
-            "image": "",
+            "image": "/photos/attractions/ebenistyczny.jpg",
             "link": ""
         },
         {
-            "title": "Dolina szprotawki",
+            "title": "Dolina Szprotawki",
             "description": "Rzeka Szprotawka (inaczej Szprotawa) oraz przylegające do niej mokradła i łąki to wartościowy przyrodniczo obszar chronionego krajobrazu. Rzeka posiada bardzo spokojny nurt, przyjazny nawet dla niedoświadczonych kajakarzy. Podziwianie przyrody od strony wody zawsze pozostawia niezapomniane wspomnienia.",
-            "image": "",
+            "image": "/photos/attractions/szprotawka.jpg",
             "link": ""
         },
         {
-            "title": "Bory dolnośląskie",
+            "title": "Bory Dolnośląskie",
             "description": "Krzywczyce otacza rozległy kompleks Borów Dolnośląskich (Obszar Natura 2000). Las zachęca do pieszych i rowerowych wędrówek oraz  obfituje w jagody i grzyby. Szczególnie z tych ostatnich słynne są Krzywczyce. Oprócz korzystania z bogactwa leśnego runa miłośnicy natury mogą słuchać ptaków i szumiących drzew.",
-            "image": "",
+            "image": "/photos/attractions/bory.jpg",
             "link": ""
         }
     ],
