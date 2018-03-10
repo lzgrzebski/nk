@@ -5,7 +5,7 @@
             "photos": [
                 {
                     "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica/4.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -13,23 +13,23 @@
                 },
                 {
                     "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
+                    "path": "/photos/gallery/okolica/2.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "id": "okolicaPhoto3",
+                    "path": "/photos/gallery/okolica/3.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "okolicaPhoto4",
+                    "path": "/photos/gallery/okolica/1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -43,32 +43,32 @@
             "name": "",
             "photos": [
                 {
-                    "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "id": "przyrodaPhoto1",
+                    "path": "/photos/gallery/przyroda/1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "przyrodaPhoto2",
+                    "path": "/photos/gallery/przyroda/4.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "id": "przyrodaPhoto3",
+                    "path": "/photos/gallery/przyroda/3.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "przyrodaPhoto4",
+                    "path": "/photos/gallery/przyroda/2.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -82,32 +82,32 @@
             "name": "",
             "photos": [
                 {
-                    "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "id": "koniePhoto1",
+                    "path": "/photos/gallery/konie/1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "koniePhoto2",
+                    "path": "/photos/gallery/konie/3.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "id": "koniePhoto3",
+                    "path": "/photos/gallery/konie/2.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "koniePhoto4",
+                    "path": "/photos/gallery/konie/4.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -122,7 +122,7 @@
             "photos": [
                 {
                     "id": "okolicaPhoto1",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -138,7 +138,7 @@
                 },
                 {
                     "id": "okolicaPhoto3",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -159,7 +159,7 @@
             "photos": [
                 {
                     "id": "okolicaPhoto5",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -175,7 +175,7 @@
                 },
                 {
                     "id": "okolicaPhoto7",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -196,7 +196,7 @@
             "photos": [
                 {
                     "id": "okolicaPhoto5",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -212,7 +212,7 @@
                 },
                 {
                     "id": "okolicaPhoto7",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -233,7 +233,7 @@
             "photos": [
                 {
                     "id": "okolicaPhoto5",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -249,7 +249,7 @@
                 },
                 {
                     "id": "okolicaPhoto7",
-                    "path": "/photos/galeria/okolica1.jpg",
+                    "path": "/photos/gallery/okolica1.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",

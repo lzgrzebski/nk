@@ -10,7 +10,7 @@ import registerServiceWorker from './registerServiceWorker';
 import configureStore from './store';
 import { App } from './containers/App'; 
 
-const history = createHistory({ basename: '/nk' });
+const history = createHistory({ basename: process.env.PUBLIC_URL });
 const store = configureStore({}, history);
 
 ReactDOM.render(
