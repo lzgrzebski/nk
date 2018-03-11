@@ -13,6 +13,11 @@ interface AppProps {
 }
 
 export class App extends React.Component<AppProps> {
+
+  componentDidMount() {
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  }
+
   render() {
     return (
       <main>

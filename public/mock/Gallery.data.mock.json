@@ -34,6 +34,86 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto5",
+                    "path": "/photos/gallery/okolica/5.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto6",
+                    "path": "/photos/gallery/okolica/6.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto7",
+                    "path": "/photos/gallery/okolica/7.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto8",
+                    "path": "/photos/gallery/okolica/8.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto9",
+                    "path": "/photos/gallery/okolica/9.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto10",
+                    "path": "/photos/gallery/okolica/14.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto11",
+                    "path": "/photos/gallery/okolica/11.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto12",
+                    "path": "/photos/gallery/okolica/10.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto13",
+                    "path": "/photos/gallery/okolica/13.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto14",
+                    "path": "/photos/gallery/okolica/12.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
@@ -69,6 +149,54 @@
                 {
                     "id": "przyrodaPhoto4",
                     "path": "/photos/gallery/przyroda/2.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto5",
+                    "path": "/photos/gallery/przyroda/5.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto6",
+                    "path": "/photos/gallery/przyroda/6.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto7",
+                    "path": "/photos/gallery/przyroda/7.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto8",
+                    "path": "/photos/gallery/przyroda/8.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto9",
+                    "path": "/photos/gallery/przyroda/9.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto10",
+                    "path": "/photos/gallery/przyroda/10.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
