@@ -42,7 +42,7 @@
     "otherAttractions": [
         {
             "title":"Pałac Wiechlice",
-            "image": "",
+            "image": "/photos/attractions/wiechlice.jpg",
             "link": ""
         },
         {
@@ -66,33 +66,33 @@
             "link": ""
         },
         {
-            "title":"Baza wojsk Wiechlice",
+            "title":"Ostoja Przyrody Bunkrowe Wzgórza",
             "image": "",
             "link": ""
         },
         {
             "title":"Dąb Chrobry",
-            "image": "",
+            "image": "/photos/attractions/dab.jpg",
             "link": ""
         },
         {
             "title":"Rezerwat Buczyna Szprotawska",
-            "image": "",
+            "image": "/photos/attractions/buczyna.jpg",
             "link": ""
         },
         {
             "title":"Rezerwat Stawy Przemkowskie",
-            "image": "",
+            "image": "/photos/attractions/stawy.jpg",
             "link": ""
         },
         {
-            "title":"Przemkowskie Bagno",
-            "image": "",
+            "title":"Użytek ekologiczny Bagna Przemkowskie",
+            "image": "/photos/attractions/bagna.jpg",
             "link": ""
         },
         {
             "title":"Przemkowski Park Krajobrazowy",
-            "image": "",
+            "image": "/photos/attractions/park.jpg",
             "link": ""
         },
         {
