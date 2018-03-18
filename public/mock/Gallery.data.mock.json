@@ -201,6 +201,22 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto11",
+                    "path": "/photos/gallery/przyroda/11.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto12",
+                    "path": "/photos/gallery/przyroda/12.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
@@ -240,117 +256,91 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "koniePhoto5",
+                    "path": "/photos/gallery/konie/5.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "koniePhoto6",
+                    "path": "/photos/gallery/konie/6.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "koniePhoto7",
+                    "path": "/photos/gallery/konie/7.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "koniePhoto8",
+                    "path": "/photos/gallery/konie/8.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
     ],
     "wobiektywie": [
         {
-            "name": "Przemysław Zgrzebski",
-            "photos": [
-                {
-                    "id": "okolicaPhoto1",
-                    "path": "/photos/gallery/okolica1.jpg",
-                    "width": 608,
-                    "height": 365,
-                    "description": "",
-                    "type": "photo"
-                },
-                {
-                    "id": "okolicaPhoto2",
-                    "path": "/photos/history/okolica2.jpg",
-                    "width": 608,
-                    "height": 365,
-                    "description": "",
-                    "type": "photo"
-                },
-                {
-                    "id": "okolicaPhoto3",
-                    "path": "/photos/gallery/okolica1.jpg",
-                    "width": 608,
-                    "height": 365,
-                    "description": "",
-                    "type": "photo"
-                },
-                {
-                    "id": "okolicaPhoto4",
-                    "path": "/photos/history/okolica2.jpg",
-                    "width": 608,
-                    "height": 365,
-                    "description": "",
-                    "type": "photo"
-                }
-            ]
-        },
-        {
             "name": "Małgorzata Cerkowniak",
             "photos": [
                 {
-                    "id": "okolicaPhoto5",
-                    "path": "/photos/gallery/okolica1.jpg",
+                    "id": "cerkowniak1",
+                    "path": "/photos/gallery/wobiektywie/1/1.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 1080,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto6",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "cerkowniak2",
+                    "path": "/photos/gallery/wobiektywie/1/2.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 1080,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto7",
-                    "path": "/photos/gallery/okolica1.jpg",
+                    "id": "cerkowniak3",
+                    "path": "/photos/gallery/wobiektywie/1/3.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 1080,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto8",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "cerkowniak4",
+                    "path": "/photos/gallery/wobiektywie/1/4.jpg",
                     "width": 608,
-                    "height": 365,
-                    "description": "",
-                    "type": "photo"
-                }
-            ]
-        },
-        {
-            "name": "Iwona Piotrowska-Multan",
-            "photos": [
-                {
-                    "id": "okolicaPhoto5",
-                    "path": "/photos/gallery/okolica1.jpg",
-                    "width": 608,
-                    "height": 365,
+                    "height": 1080,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto6",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "cerkowniak5",
+                    "path": "/photos/gallery/wobiektywie/1/5.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 1080,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto7",
-                    "path": "/photos/gallery/okolica1.jpg",
+                    "id": "cerkowniak6",
+                    "path": "/photos/gallery/wobiektywie/1/6.jpg",
                     "width": 608,
-                    "height": 365,
-                    "description": "",
-                    "type": "photo"
-                },
-                {
-                    "id": "okolicaPhoto8",
-                    "path": "/photos/history/okolica2.jpg",
-                    "width": 608,
-                    "height": 365,
+                    "height": 1080,
                     "description": "",
                     "type": "photo"
                 }
@@ -360,34 +350,140 @@
             "name": "Andrzej Gajdziński",
             "photos": [
                 {
-                    "id": "okolicaPhoto5",
-                    "path": "/photos/gallery/okolica1.jpg",
+                    "id": "gajdzinski1",
+                    "path": "/photos/gallery/wobiektywie/2/1.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 405,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto6",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "gajdzinski2",
+                    "path": "/photos/gallery/wobiektywie/2/2.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 405,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto7",
-                    "path": "/photos/gallery/okolica1.jpg",
+                    "id": "gajdzinski3",
+                    "path": "/photos/gallery/wobiektywie/2/3.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 405,
                     "description": "",
                     "type": "photo"
                 },
                 {
-                    "id": "okolicaPhoto8",
-                    "path": "/photos/history/okolica2.jpg",
+                    "id": "gajdzinski4",
+                    "path": "/photos/gallery/wobiektywie/2/4.jpg",
                     "width": 608,
-                    "height": 365,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        },
+        {
+            "name": "Iwona Piotrowska-Multan",
+            "photos": [
+                {
+                    "id": "piotrowska1",
+                    "path": "/photos/gallery/wobiektywie/3/1.jpg",
+                    "width": 608,
+                    "height": 408,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "piotrowska2",
+                    "path": "/photos/gallery/wobiektywie/3/2.jpg",
+                    "width": 608,
+                    "height": 408,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "piotrowska3",
+                    "path": "/photos/gallery/wobiektywie/3/3.jpg",
+                    "width": 608,
+                    "height": 408,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "piotrowska4",
+                    "path": "/photos/gallery/wobiektywie/3/4.jpg",
+                    "width": 608,
+                    "height": 408,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "piotrowska5",
+                    "path": "/photos/gallery/wobiektywie/3/5.jpg",
+                    "width": 608,
+                    "height": 408,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "piotrowska6",
+                    "path": "/photos/gallery/wobiektywie/3/6.jpg",
+                    "width": 608,
+                    "height": 408,
+                    "description": "",
+                    "type": "photo"
+                }
+            ]
+        },
+        {
+            "name": "Przemysław Zgrzebski",
+            "photos": [
+                {
+                    "id": "zgrzebski1",
+                    "path": "/photos/gallery/wobiektywie/4/1.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski2",
+                    "path": "/photos/gallery/wobiektywie/4/2.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski3",
+                    "path": "/photos/gallery/wobiektywie/4/3.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski4",
+                    "path": "/photos/gallery/wobiektywie/4/4.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski5",
+                    "path": "/photos/gallery/wobiektywie/4/5.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski6",
+                    "path": "/photos/gallery/wobiektywie/4/6.jpg",
+                    "width": 608,
+                    "height": 405,
                     "description": "",
                     "type": "photo"
                 }
