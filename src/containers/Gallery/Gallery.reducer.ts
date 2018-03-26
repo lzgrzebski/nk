@@ -3,6 +3,7 @@ import { Photo } from './../Home/Home.reducer';
 
 export interface GalleryCategoryItem {
     name?: string;
+    grid?: number;
     photos: Photo[];
 }
 

@@ -45,7 +45,7 @@ class GalleryContainer extends React.Component<GalleryProps> {
                         )}
                         <GalleryGrid>
                             { categoryItem.photos.map(photo => (
-                                <GalleryItem key={photo.id}>
+                                <GalleryItem grid={categoryItem.grid} key={photo.id}>
                                     <Photo
                                         path={photo.path}
                                         ratio={photo.height / photo.width}

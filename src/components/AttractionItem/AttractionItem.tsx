@@ -10,9 +10,10 @@ interface AttractionItemProps {
     title: string;
     image: string;
     description?: string;
+    link?: string;
 }
 
-const AttractionItem: React.SFC<AttractionItemProps> = ({title, description, image}) => (
+const AttractionItem: React.SFC<AttractionItemProps> = ({title, description, image, link}) => (
     <AttractionItemWrapper>
         <AttractionItemPhoto>
             <Photo
@@ -27,7 +28,16 @@ const AttractionItem: React.SFC<AttractionItemProps> = ({title, description, ima
             <TextField padding="0" page={PageType.home} id="asd">
                 {description}
             </TextField>
-            <Button>Więcej informacji</Button>
+            {link && (
+                <Button>
+                    <a
+                        href={link}
+                        target="_blank"
+                    >
+                        Więcej informacji
+                    </a>
+                </Button>
+            )}
         </div>
     </AttractionItemWrapper>
 );
