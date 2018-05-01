@@ -114,6 +114,22 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto15",
+                    "path": "/photos/gallery/okolica/15.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto16",
+                    "path": "/photos/gallery/okolica/16.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
@@ -213,6 +229,22 @@
                 {
                     "id": "przyrodaPhoto12",
                     "path": "/photos/gallery/przyroda/12.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto13",
+                    "path": "/photos/gallery/przyroda/13.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto14",
+                    "path": "/photos/gallery/przyroda/14.jpg",
                     "width": 608,
                     "height": 365,
                     "description": "",
@@ -381,6 +413,22 @@
                     "height": 405,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "gajdzinski5",
+                    "path": "/photos/gallery/wobiektywie/2/5.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "gajdzinski6",
+                    "path": "/photos/gallery/wobiektywie/2/6.jpg",
+                    "width": 608,
+                    "height": 405,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         },
@@ -485,6 +533,22 @@
                     "path": "/photos/gallery/wobiektywie/4/6.jpg",
                     "width": 608,
                     "height": 405,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski7",
+                    "path": "/photos/gallery/wobiektywie/4/7.jpg",
+                    "width": 608,
+                    "height": 342,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski8",
+                    "path": "/photos/gallery/wobiektywie/4/8.jpg",
+                    "width": 608,
+                    "height": 342,
                     "description": "",
                     "type": "photo"
                 }
