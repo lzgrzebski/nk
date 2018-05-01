@@ -50,40 +50,44 @@ class HomeContainer extends React.Component<HomeProps> {
 
         return (
             <React.Fragment>
-                <TopContentContainer>
-                    <TopWrapper>
-                        <TopHeadline>{headline.value}</TopHeadline>
-                        <TextField page={PageType.home} id={headlineDescription.id}>
-                            {headlineDescription.value}
-                        </TextField>
-                        <Button><Link to="/attractions">{headlineButton.value}</Link></Button>
-                    </TopWrapper>
-                    <TopImageWrapper>
-                        <Photo path={headlinePhoto.path} ratio={headlinePhoto.height / headlinePhoto.width} />
-                    </TopImageWrapper>
-                </TopContentContainer>
-                <ContentContainer>
-                    <Headline>{photoSectionHeadline.value}</Headline>
-                </ContentContainer>
-                <ContentContainer>
-                    <div style={{flex: 2, paddingRight: 20}}>
-                        <Photo path={photoSectionElement1.path} />
-                    </div>
-                    <div style={{flex: 1}}>
-                        <Photo ratio={1.2} path={photoSectionElement2.path} />
-                    </div>
-                </ContentContainer>
-                <ContentContainer>
-                    <div style={{flex: 1, paddingRight: 20}}>
-                        <Photo path={photoSectionElement3.path} />
-                    </div>
-                    <div style={{flex: 1}}>
-                        <Photo path={photoSectionElement4.path} />
-                    </div>
-                </ContentContainer>
-                <ContentContainer center margin="40px auto">
-                    <Button invert main><Link to="/gallery">{photoSectionMoreButton.value}</Link></Button>
-                </ContentContainer>
+            { headline && headline.value && (
+                <React.Fragment>
+                    <TopContentContainer>
+                        <TopWrapper>
+                            <TopHeadline>{headline.value}</TopHeadline>
+                            <TextField page={PageType.home} id={headlineDescription.id}>
+                                {headlineDescription.value}
+                            </TextField>
+                            <Button><Link to="/attractions">{headlineButton.value}</Link></Button>
+                        </TopWrapper>
+                        <TopImageWrapper>
+                            <Photo path={headlinePhoto.path} ratio={headlinePhoto.height / headlinePhoto.width} />
+                        </TopImageWrapper>
+                    </TopContentContainer>
+                    <ContentContainer>
+                        <Headline>{photoSectionHeadline.value}</Headline>
+                    </ContentContainer>
+                    <ContentContainer>
+                        <div style={{flex: 2, paddingRight: 20}}>
+                            <Photo path={photoSectionElement1.path} />
+                        </div>
+                        <div style={{flex: 1}}>
+                            <Photo ratio={1.2} path={photoSectionElement2.path} />
+                        </div>
+                    </ContentContainer>
+                    <ContentContainer>
+                        <div style={{flex: 1, paddingRight: 20}}>
+                            <Photo path={photoSectionElement3.path} />
+                        </div>
+                        <div style={{flex: 1}}>
+                            <Photo path={photoSectionElement4.path} />
+                        </div>
+                    </ContentContainer>
+                    <ContentContainer center margin="40px auto">
+                        <Button invert main><Link to="/gallery">{photoSectionMoreButton.value}</Link></Button>
+                    </ContentContainer>
+                </React.Fragment>
+            )}
             </React.Fragment>
         );
     }

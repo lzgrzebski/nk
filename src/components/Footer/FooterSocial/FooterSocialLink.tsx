@@ -6,6 +6,7 @@ export default styled.a`
     text-decoration: underline;
 
     margin-left: 15px;
+    pointer-events: all;
 
     svg {
         width: 32px;

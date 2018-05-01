@@ -8,6 +8,7 @@ import { Footer } from '../../components/Footer';
 import { History } from '../History';
 import { Gallery } from '../Gallery';
 import { Contact } from '../Contact';
+import { ToTopBtn } from '../ToTopBtn';
 
 interface AppProps {
 }
@@ -29,6 +30,7 @@ export class App extends React.Component<AppProps> {
           <Route path="/gallery/:category?" component={Gallery} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <ToTopBtn offset={30} />
         <Footer />
       </main>
     );
