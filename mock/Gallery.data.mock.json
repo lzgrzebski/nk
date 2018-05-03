@@ -265,6 +265,22 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto15",
+                    "path": "/photos/gallery/przyroda/15.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto16",
+                    "path": "/photos/gallery/przyroda/16.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
