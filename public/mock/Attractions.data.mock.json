@@ -31,11 +31,10 @@
         "points": [
             "rozwój agroturystycznej bazy noclegowej",
             "uruchomienie schroniska młodzieżowego w budynku szkoły",
-            "budowa przystani kajakowej wraz z miejscem do biwakowania",
-            "budowa zbiornika retencyjnego na rzece Szprotawie",
-            "rewitalizacja zabytków architektury i przyrody",
+            "budowę przystani kajakowej wraz z miejscem do biwakowania",
+            "rewitalizację zabytków architektury i przyrody",
             "utrzymanie kameralnego charakteru wsi",
-            "ochrona krajobrazu przed wprowadzaniem obiektów przemysłowych"
+            "ochronę krajobrazu przed wprowadzaniem obiektów przemysłowych"
         ]
     },
     "otherAttractionsTitle": "Inne ciekawe miejsca w okolicy",
@@ -47,12 +46,12 @@
         },
         {
             "title":"Pałac Sucha Dolna - ruiny",
-            "image": "",
+            "image": "/photos/attractions/sucha.jpg",
             "link": ""
         },
         {
             "title":"Pałac Cieciszów - ruiny",
-            "image": "",
+            "image": "/photos/attractions/cieciszow.jpg",
             "link": ""
         },
         {
@@ -67,7 +66,7 @@
         },
         {
             "title":"Ostoja Przyrody Bunkrowe Wzgórza",
-            "image": "",
+            "image": "/photos/attractions/ostoja.jpg",
             "link": ""
         },
         {
@@ -97,7 +96,7 @@
         },
         {
             "title":"Dolina Bobru",
-            "image": "",
+            "image": "/photos/attractions/bobr.jpg",
             "link": ""
         }
     ]
