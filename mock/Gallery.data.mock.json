@@ -130,6 +130,22 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto17",
+                    "path": "/photos/gallery/okolica/17.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "okolicaPhoto18",
+                    "path": "/photos/gallery/okolica/18.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
