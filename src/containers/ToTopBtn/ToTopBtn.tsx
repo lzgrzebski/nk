@@ -37,8 +37,35 @@ export class ToTopBtn extends React.Component<ToTopBtnProps, ToTopBtnState> {
     }
 
     handleClick = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+        const start = document.body.scrollTop || document.documentElement.scrollTop ;
+        const change = -start;
+        const increment = 20;
+        const duration = 1000;
+        let currentTime = 0;
+    
+        const animateScroll = (() => {
+    
+          currentTime += increment;
+    
+          const val = this.easeInOutQuad(currentTime, start, change, duration);
+
+          document.body.scrollTop = val;
+          document.documentElement.scrollTop = val;
+    
+          if (currentTime < duration) {
+            requestAnimationFrame(animateScroll);
+          }
+        });
+    
+        requestAnimationFrame(animateScroll);
+
+    }
+
+    easeInOutQuad(t: number, b: number, c: number, d: number) {
+        t /= d / 2;
+        if (t < 1) { return  c / 2 * t * t + b; }
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
     }
 
     render() {
