@@ -9,12 +9,12 @@ export default styled.div`
     text-align: center;
     border-radius: 5px;
     outline: none;
-    border: 1px solid #eff1f4;
+    border: 1px solid #d2d2d2;
     background: #fff;
     position: absolute;
     right: 10px;
     margin-left: 10px;
-    color: #cacaca;
+    color: #a5a5a5;
     display: flex;
     cursor: pointer;
     opacity: ${ ({isBtnVisible}: ButtonProps) => isBtnVisible ? 1 : 0 };
