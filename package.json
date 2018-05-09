@@ -2,7 +2,7 @@
   "name": "nk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://krzywczyce.pl",
+  "homepage": "http://krzywczyce.pl",
   "dependencies": {
     "history": "^4.7.2",
     "react": "^16.2.0",
