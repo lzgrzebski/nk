@@ -28,7 +28,9 @@ class ContactContainer extends React.Component<ContactProps> {
                     <TextField padding="0" page={PageType.home} id="asd">
                         {`
                             Strona prowadzona przez Stowarzyszenie <b>Nasze Krzywczyce</b><br />
-                            e-mail: <a href="mailto:nasze.krzywczyce@.o2.pl">nasze.krzywczyce@.o2.pl</a>
+                            e-mail: <a href="mailto:nasze.krzywczyce@.o2.pl">nasze.krzywczyce@.o2.pl</a><br /><br />
+                            <i>Fotografie publikowane na stronie stanowią własność autorów. Kopiowanie i
+                            rozpowszechnianie fotografii bez ich zgody jest zabronione.</i>
                         `}
                     </TextField>
                     <ContactSocialWrapper>
