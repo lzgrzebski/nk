@@ -281,6 +281,86 @@
                     "height": 365,
                     "description": "",
                     "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto17",
+                    "path": "/photos/gallery/przyroda/17.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto18",
+                    "path": "/photos/gallery/przyroda/18.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto19",
+                    "path": "/photos/gallery/przyroda/19.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto20",
+                    "path": "/photos/gallery/przyroda/20.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto21",
+                    "path": "/photos/gallery/przyroda/21.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto22",
+                    "path": "/photos/gallery/przyroda/22.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto23",
+                    "path": "/photos/gallery/przyroda/23.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto24",
+                    "path": "/photos/gallery/przyroda/24.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto25",
+                    "path": "/photos/gallery/przyroda/25.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "przyrodaPhoto26",
+                    "path": "/photos/gallery/przyroda/26.jpg",
+                    "width": 608,
+                    "height": 365,
+                    "description": "",
+                    "type": "photo"
                 }
             ]
         }
@@ -579,6 +659,22 @@
                 {
                     "id": "zgrzebski8",
                     "path": "/photos/gallery/wobiektywie/4/8.jpg",
+                    "width": 608,
+                    "height": 342,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski9",
+                    "path": "/photos/gallery/wobiektywie/4/9.jpg",
+                    "width": 608,
+                    "height": 342,
+                    "description": "",
+                    "type": "photo"
+                },
+                {
+                    "id": "zgrzebski10",
+                    "path": "/photos/gallery/wobiektywie/4/10.jpg",
                     "width": 608,
                     "height": 342,
                     "description": "",
